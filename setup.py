@@ -15,7 +15,7 @@ if sys.platform == "win32":
     base = "Win32GUI"
 
 setup(
-    name="Krypt",
+    name="Crypt",
     version="1.0",
     description="Encryption and Decryption App",
     options={
