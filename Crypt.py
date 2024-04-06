@@ -31,7 +31,7 @@ class EncryptionTool:
 
         # encrypted file name
         self.encrypt_output_file = ".".join(self.user_file.split(".")[:-1]) \
-            + "." + self.file_extension + ".kryp"
+            + "." + self.file_extension + ".crypt"
 
         # decrypted file name
         self.decrypt_output_file = self.user_file[:-5].split(".")
@@ -186,7 +186,7 @@ class MainWindow:
 
         self.should_cancel = False
 
-        root.title("KrypApp")
+        root.title("Crypt")
         root.configure(bg="#eeeeee")
 
         try:
