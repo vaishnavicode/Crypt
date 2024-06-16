@@ -1,4 +1,4 @@
-# KrypApp
+# Crypt
 File Encryption and Decryption GUI with Python
 
 ### Tech Stack
